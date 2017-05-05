@@ -1,0 +1,27 @@
+[
+  {
+    "marca": "Chevrolet",
+    "modelo": "Spark",
+    "año": 2017
+  },
+  {
+  "marca": "Mitsubishi",
+    "modelo":"Montero",
+    "año":2017
+  },
+  {
+    "marca": "Hyundai",
+    "modelo":"Montero",
+    "año":2017
+  },
+  {
+    "marca": "Honda",
+    "modelo":"Civic",
+    "año":2017
+  },
+  {
+    "marca": "Ford",
+    "modelo":"Focus",
+    "año":2017
+  }
+]

@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<!--DECLARACION DE BUSCADOR-->
+<h3 class="first">Lista De Carros</h3>
+<div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
+  <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
+  <input #gb type="text" pInputText size="50" placeholder="Global Filter">
+</div>
+<!--DECLARACION DE TABLA-->
+<p-dataTable [value]="clist" [rows]="4" [paginator]="true" [globalFilter]="gb" #dt>
+  <p-column field="marca" header="Marca"></p-column>
+  <p-column field="modelo" header="Modelo"></p-column>
+  <p-column field="año" header="Año"></p-column>
+</p-dataTable>
